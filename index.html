@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix- Watch Video Anywhere</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <div class="right">
+                <div class="checkbox">
+                    <a href="#"> English</a>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="btn">
+                    <a href="signIn.html" class="btn">Sign In</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+        </div>
+
+        <div class="main">
+            <div class="area">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <h3>Watch anywhere. Cancel anytime.</h3>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+                <div class="search" id="sign-up">
+                    <input type="email" class="box" placeholder="Email Address...">
+                    <button type="submit" value="submit">Get Started</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <hr>
+
+    <div class="container1">
+        <div class="row">
+            <div class="col-1">
+                <h1>Enjoy on your TV</h1>
+                <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+            </div>
+            <div class="col-2">
+                <img src="images/tv.png" alt="">
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container2">
+        <div class="row">
+            <div class="col-1">
+                <img src="images/container2.jpg" alt="">
+
+            </div>
+            <div class="col-2">
+                <h1>Download your shows to watch offline</h1>
+                <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+            </div>
+          
+        </div>
+    </div>
+    <hr>
+
+    <div class="container1">
+        <div class="row">
+            <div class="col-1">
+                <h1>Watch everywhere</h1>
+                <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+            </div>
+            <div class="col-2">
+                <img src="images/container3.png" alt="">
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container2">
+        <div class="row">
+            <div class="col-1">
+                <img src="images/container4.png" alt="">
+
+            </div>
+            <div class="col-2">
+                <h1>Create profiles for kids</h1>
+                <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+            </div>
+          
+        </div>
+    </div>
+    <hr>
+
+    <div class="question-area">
+        <h1>Frequently Asked Questions</h1>
+        <div class="row">
+        
+            <button class="question">What is NetFlix ?</button>
+<div class="answer">
+  <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+</div>
+
+<button class="question">How much does Netflix cost ?</button>
+<div class="answer">
+  <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p>
+</div>
+
+<button class="question">How Do I cancel ?</button>
+<div class="answer">
+  <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+</div>
+
+<button class="question">What Can I watch on Netflix ?</button>
+<div class="answer">
+  <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+</div>
+
+<button class="question">Is Netflix good for kids ?</button>
+<div class="answer">
+  <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+
+    Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+</div>
+
+
+        </div>
+
+        </div>
+   
+    </div>
+
+    <div class="main">
+        <div class="area">
+           
+         
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+            <div class="search">
+                <input type="email" class="box" placeholder="Email Address...">
+                <button type="submit" value="submit">Get Started</button>
+            </div>
+
+        </div>
+        <br>
+        <br><hr>
+
+
+    <script>
+        var q = document.getElementsByClassName("question");
+        var i;
+        
+        for (i = 0; i < q.length; i++) {
+          q[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var answer = this.nextElementSibling;
+            if (answer.style.display === "block") {
+              answer.style.display = "none";
+            } else {
+              answer.style.display = "block";
+            }
+          });
+        }
+        </script>
+
+</body>
+
+</html>

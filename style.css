@@ -1,0 +1,589 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(31, 31, 31, 0.4), #000), url(images/rDJegQJaCyGaYysj2g5XWY.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0.5;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav .logo {
+    width: 180px;
+    height: auto;
+    padding: 30px 6px;
+
+}
+
+nav .logo img {
+    width: 100%;
+
+}
+
+nav .right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: 30% 0
+}
+
+nav .right .checkbox a, .right a {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 6px;
+    margin: 0px 6px;
+    font-size: 14px;
+
+
+}
+
+nav .right .btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px;
+    margin: 0px 6px;
+    font-size: 14px;
+    background-color: #ed0202;
+    border: 0;
+}
+
+.main {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+
+.main .area h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+
+.main .area h3 {
+    color: #fff;
+    font-size: 25px;
+    padding: 16px 0px;
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+
+}
+
+.main .area p {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin: 15px 10px;
+    font-size: 20px;
+}
+
+.main .area .search {
+    width: 58%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.main .area .search input {
+    padding: 15px 90px 15px 8px;
+    margin: 10px 5px;
+    border-radius: 6px;
+    background: rgba(26, 25, 25, 0.7);
+    border: 1px solid #b7b4b4;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.main .area .search button {
+    border-radius: 6px;
+    margin: 11px 35px 10px 4px;
+    padding: 0px 30px;
+    background: rgb(159, 5, 5);
+    border: 1px solid #8e0c0c;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.container1 {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), #000);
+    margin: 3% 0;
+}
+
+.container1 .row {
+    width: 90%;
+    margin-top: 2%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 4% 7%;
+
+
+}
+
+.container1 .row .col-1 {
+    width: 40%;
+    color: #fff;
+
+    margin-left: 4%;
+}
+
+.container1 .row .col-1 h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+
+.container1 .row .col-1 h3 {
+    font-size: 22px;
+
+
+}
+
+.container1 .row .col-2 {
+    width: 40%;
+    color: #fff;
+    height: auto;
+    border: 0;
+    margin-left: 3%;
+
+}
+
+.container1 .row .col-2 img {
+    width: 100%;
+
+}
+
+hr {
+
+    border: 4px solid rgb(54, 52, 52);
+    width: 100%;
+}
+
+.container2 {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), #000);
+}
+
+.container2 .row {
+    width: 90%;
+    margin-top: 2%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7% 6%;
+
+
+}
+
+.container2 .row .col-2 {
+    width: 50%;
+    color: #fff;
+
+    margin-left: 4%;
+}
+
+.container2 .row .col-2 h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+
+.container2 .row .col-2 h3 {
+    font-size: 22px;
+
+
+}
+
+.container2 .row .col-1 {
+    width: 40%;
+    color: #fff;
+    height: auto;
+    border: 0;
+    margin-left: 3%;
+
+}
+
+.container2 .row .col-1 img {
+    width: 100%;
+
+}
+
+.question-area {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), #000);
+}
+
+.question-area .row {
+    width: 80%;
+    align-items: center;
+    margin: auto;
+
+}
+
+.question-area h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+
+    text-align: center;
+
+
+}
+
+.question-area .row {
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+
+}
+
+.question {
+    background-color: #2b2929;
+    color: #fcf7f7;
+    cursor: pointer;
+    padding: 27px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.question:hover {
+    background-color: #3c3a3a;
+}
+
+.answer {
+    color: #ffffff;
+    padding: 30px 18px;
+    display: none;
+    background-color: #2b2929;
+
+
+}
+
+.question:after {
+    content: '+';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "-";
+}
+
+.active {
+    background-color: #2b2929;
+}
+
+/* --------Sign In Page CSS----------*/
+
+.Sign-In {
+    width: 100%;
+    height: 80vh;
+
+}
+
+
+.Sign-In .form-area h1 {
+    font-size: 30px;
+    padding: 10px 0px;
+    margin-right: 50%;
+}
+
+.Sign-In .form-area {
+    width: 35%;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    bottom: 0;
+    border: 0;
+}
+
+.Sign-In .form-area form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Sign-In .form-area form input {
+    padding: 18px 10px;
+    margin: 8px 40px;
+    border-radius: 7px;
+    background: #464747;
+    color: #000;
+    border: none;
+    font-size: 14px;
+}
+
+.Sign-In .form-area form input:hover {
+
+    background: #d7f6f6;
+    border: none;
+   
+}
+
+.Sign-In .form-area form button {
+    padding: 18px 10px;
+    margin: 40px 40px 5px 40px;
+    border-radius: 7px;
+    background: #ce0916;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Sign-In .form-area .center {
+
+    margin: 6px 40px;
+
+}
+
+.Sign-In .form-area .center input {
+
+    float: left;
+    font-size: larger;
+    margin-left: 5px;
+ 
+}
+
+.Sign-In .form-area .center .para {
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0px 25px;
+font-size: 14px;
+}
+
+.Sign-In .form-area .bottom {
+    padding: 18px 20px;
+    margin: 30px 50px 0px 50px;
+    font-size: 14px;
+}
+
+.Sign-In .form-area .bottom p {
+   margin-bottom: 14px;
+}
+
+.Sign-In .form-area .bottom p a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+ }
+ .Sign-In .form-area .bottom p a:hover {
+  background: #2b2929;
+  padding: 6px 6px;
+  border-radius: 7px;
+  
+   }
+
+
+   /* -----Media Query------*/
+
+  @media only screen and (max-width:600px) {
+    nav .logo {
+        width: 180px;
+        height: auto;
+        padding: 30px 6px;
+      margin-right: 50%;
+    
+    }
+    nav .right {
+        display: none;
+    }
+
+    .main {
+        width: 90%;
+        align-items: center;
+        margin: auto;
+        margin-top: 12%;
+       
+    }
+
+   
+    .Sign-In .form-area {
+        width: 80%;
+    
+    }
+
+
+
+    .main .area h1 {
+
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    
+    .main .area h3 {
+        font-size: 20px;
+    }
+    
+    .main .area p {
+        font-size: 16px;
+    }
+    
+    .main .area .search {
+        width: 90%;
+    
+    }
+    
+    .main .area .search input {
+       padding-right: 40%;
+        margin: 10px 20px;
+       
+    }
+    
+    
+    .main .area .search button {
+       
+        padding: 16px 30px;
+        margin-left: 30%;
+    }
+    
+    .container1 .row {
+        width: 80%;
+       flex-direction: column;
+       text-align: center;
+    
+    
+    }
+    
+    .container1 .row .col-1 {
+        width: 100%;
+        margin-bottom: 50px;
+        
+    }
+    
+    .container1 .row .col-1 h1 {
+        font-size: 30px;
+      
+    }
+    
+    .container1 .row .col-1 h3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .container1 .row .col-2 {
+        width: 100%;
+        margin-bottom: 2%;
+    
+    }
+
+
+    .container2 {
+        width: 100%;
+    }
+    
+    .container2 .row {
+        width: 100%;
+        flex-direction: column;
+    
+    }
+    
+    .container2 .row .col-2 {
+        width: 90%;
+        color: #fff;
+        margin-bottom: 50px;
+  
+    }
+    
+    .container2 .row .col-2 h1 {
+        width: 90%;
+        font-size: 25px;
+      text-align: center;
+    
+    }
+    
+    .container2 .row .col-2 h3 {
+        font-size: 16px;
+        text-align: center;
+        width: 90%;
+    
+    
+    }
+    
+    .container2 .row .col-1 {
+        width: 100%;
+        margin-bottom: 50px;
+    
+    }
+    
+    .container2 .row .col-1 img {
+        width: 100%;
+    
+    }
+    
+    .question-area h1 {
+      
+        font-size: 30px;
+        margin-bottom: 20px;
+       
+    
+    
+    }
+    
+  }
+
+  @media only screen and (max-width:900px) {
+    nav .logo {
+        width: 180px;
+        height: auto;
+        padding: 30px 6px;
+      margin-right: 50%;
+    
+    }
+}
